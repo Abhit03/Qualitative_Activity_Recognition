@@ -92,6 +92,7 @@ tes <- tes[, vars2]
 
 ##Model Selection
 The response variable is 'Classe' variable which is a factor variable with 5 levels. Lets consider the rest to be our predictors. **This is a classification problem**. 
+
 * We did not use generalised linear models like logistic regression since that would be apt for binary classification. Here there are more than two levels
 * A random forest could be used but since this is a large dataset it takes a lot of time to train the dataset and also dosent provide interpretability.
 * We select boosting or **Gradient Boosting Method** as it trains the model relatively quickly and also gives good accuracy!
