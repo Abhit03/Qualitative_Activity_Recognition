@@ -97,7 +97,7 @@ The response variable is 'Classe' variable which is a factor variable with 5 lev
 * We select boosting or **Gradient Boosting Method** as it trains the model relatively quickly and also gives good accuracy!
 
 ###Gradient Boosting Method
-Gradient boosting is a machine learning technique for classification problems, which produces a prediction model in the form of an ensemble of decision trees. It builds the model in a stage-wise fashion generalizes them by allowing optimization of an arbitrary differentiable loss function.
+Gradient boosting is a machine learning technique for classification problems, which produces a prediction model in the form of an ensemble of decision trees. It builds the model in a stage-wise fashion generalizes them by allowing optimization of an arbitrary differentiable loss function.[2]
 
 ##Training the data
 We use 'caret' package - A machine learning package for R. As it allows for easy slicing of data and training using prebuilt function method 'gbm' (gradient boosting method)
@@ -153,3 +153,8 @@ We get 19/20 predictions right with this model. (Which forms a part of the final
 
 ##Conclusion
 We have used gradient boosting algorithm to train our dataset and classified the activities with 95% accuracy for the given test case.
+
+##References
+[1]<http://groupware.les.inf.puc-rio.br/work.jsf?p1=11201>
+[2]<http://statistics.berkeley.edu/sites/default/files/tech-reports/486.pdf>
+[3]<https://en.wikipedia.org/wiki/Gradient_boosting>
